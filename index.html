@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Basic metadata -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Descripción breve del sitio web." />
+    <meta name="author" content="Julio Siles" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Landing Page 2</title>
+
+    <meta property="og:title" content="Tailwind Project 2" />
+
+    <meta
+      property="og:description"
+      content="Landing Page 2 using Tailwind CSS"
+    />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <header
+      class="flex justify-between items-center my-4 mx-auto max-w-[78vw] relative"
+    >
+      <nav
+        class="fixed z-20 top-3 left-1/2 -translate-x-1/2 flex justify-around items-center w-100 h-15 text-sm backdrop-blur-xl rounded-4xl font-bold"
+      >
+        <a href="#">Benefits</a>
+        <a href="#">Specifications</a>
+        <a href="#">How-to</a>
+        <a href="#">Contact Us</a>
+      </nav>
+      <h1 class="font-medium text-3xl">Area</h1>
+      <button
+        class="flex justify-center items-center h-12 w-32 bg-lime-800 text-white rounded-4xl text-sm font-bold transition-all hover:duration-400 hover:bg-lime-800/60 hover:cursor-pointer group"
+      >
+        Learn more
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-4 h-4 rotate-315 transition-all group-hover:-translate-y-1 group-hover:duration-400"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M17 8l4 4m0 0l-4 4m4-4H3"
+          />
+        </svg>
+      </button>
+    </header>
+
+    <main>
+      <section class="flex flex-col my-15 gap-10 mx-auto max-w-[78vw]">
+        <h1 class="text-9xl text-center">Browse everything.</h1>
+        <div class="relative h-[594px] flex overflow-hidden items-end">
+          <div class="h-90 w-full bg-[#8E9C78] rounded-4xl"></div>
+          <div
+            class="absolute bottom-0 w-[58%] h-[83%] left-1/2 -translate-x-1/2"
+          >
+            <img
+              src="/assets/img/img1.png"
+              alt="Example Image"
+              class="h-full w-full object-cover outline-[20px] outline-black rounded-t-md border-gray-600 border-1"
+            />
+          </div>
+        </div>
+      </section>
+      <section
+        class="min-w-2/3 mt-15 ml-10 border-t-[0.5px] pb-15 border-t-slate-200 max-w-[78vw]"
+      >
+        <div class="flex flex-col justify-between gap-12 pb-10 pt-17">
+          <span class="font-extralight text-sm"> Benefits</span>
+          <h2 class="text-6xl">We've cracked the code.</h2>
+          <span class="font-semibold text-slate-400">
+            Area provides real insights, without the data overload.</span
+          >
+        </div>
+        <div class="flex flex-row justify-between pt-12 pb-25">
+          <div
+            class="flex flex-col w-78 gap-6 border-t-[0.5px] border-t-slate-200 pt-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="19"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-cable-icon lucide-cable"
+            >
+              <path
+                d="M17 19a1 1 0 0 1-1-1v-2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2a1 1 0 0 1-1 1z"
+              />
+              <path d="M17 21v-2" />
+              <path d="M19 14V6.5a1 1 0 0 0-7 0v11a1 1 0 0 1-7 0V10" />
+              <path d="M21 21v-2" />
+              <path d="M3 5V3" />
+              <path
+                d="M4 10a2 2 0 0 1-2-2V6a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2a2 2 0 0 1-2 2z"
+              />
+              <path d="M7 5V3" />
+            </svg>
+            <span class="text-[0.95rem]">Amplify insights</span>
+            <p class="-mt-1 text-slate-500 text-[0.93rem] leading-5">
+              Unlock data-driven decisions with comprehensive analytics,
+              revealing key opportunities for strategic regional growth.
+            </p>
+          </div>
+          <div
+            class="flex flex-col w-78 gap-6 border-t-[0.5px] border-t-slate-200 pt-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-earth-icon lucide-earth"
+            >
+              <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54" />
+              <path
+                d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"
+              />
+              <path
+                d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"
+              />
+              <circle cx="12" cy="12" r="10" />
+            </svg>
+            <span class="text-[0.95rem]">Control Your Global Presence</span>
+            <p class="-mt-1 text-slate-500 text-[0.93rem] leading-5">
+              Manage and track satellite offices, ensuring consistent
+              performance and streamlined operations everywhere.
+            </p>
+          </div>
+          <div
+            class="flex flex-col w-78 gap-6 border-t-[0.5px] border-t-slate-200 pt-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-speech-icon lucide-speech"
+            >
+              <path
+                d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20"
+              />
+              <path d="M19.8 17.8a7.5 7.5 0 0 0 .003-10.603" />
+              <path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
+            </svg>
+            <span class="text-[0.95rem]">Remove Language Barriers</span>
+            <p class="-mt-1 text-slate-500 text-[0.93rem] leading-5">
+              Adapt to diverse markets with built-in localization for clear
+              communication and enhanced user experience.
+            </p>
+          </div>
+          <div
+            class="flex flex-col w-78 gap-6 border-t-[0.5px] border-t-slate-200 pt-8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941"
+              />
+            </svg>
+
+            <span class="text-[0.95rem]">Visualize Growth </span>
+            <p class="-mt-1 text-slate-500 text-[0.93rem] leading-5">
+              Generate precise, visually compelling reports that illustrate your
+              growth trajectories across all regions.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./assets/img/img2.jpg"
+            alt="Example Image"
+            class="pb h-155 w-full object-cover rounded-4xl"
+          />
+        </div>
+      </section>
+      <section
+        class="flex justify-between min-w-2/3 mt-15 ml-10 max-w-[78vw] pb-30 border-b"
+      >
+        <div class="max-w-175 border-t-[0.5px] border-t-slate-200">
+          <h1 class="pt-13 text-5xl">See the Big Picture</h1>
+          <p class="pt-13 pb-8 font-semibold text-slate-400">
+            Area turns your data into clear, vibrant visuals that show you
+            exactly what's happening in each region.
+          </p>
+          <ol>
+            <li class="flex gap-6 border-t-[0.5px] border-t-slate-200 py-4">
+              01
+              <span
+                >Spot Trends in Seconds: No more digging through numbers.</span
+              >
+            </li>
+            <li class="flex gap-6 border-t-[0.5px] border-t-slate-200 py-4">
+              02
+              <span>
+                Get Everyone on the Same Page: Share easy-to-understand reports
+                with your team.
+              </span>
+            </li>
+            <li class="flex gap-6 border-t-[0.5px] border-t-slate-200 py-4">
+              03
+              <span>
+                Make Presentations Pop: Interactive maps and dashboards keep
+                your audience engaged.
+              </span>
+            </li>
+            <li class="flex gap-6 border-t-[0.5px] border-t-slate-200 py-4">
+              04
+              <span>
+                Your Global Snapshot: Get a quick, clear overview of your entire
+                operation.
+              </span>
+            </li>
+          </ol>
+          <button
+            class="h-12 w-35 mt-15 bg-[#DFECC6] text-sm font-semibold rounded-4xl transition-all hover:bg-[#8D9B77] hover:duration-700 hover:cursor-pointer hover:text-amber-50 hover:border-0.5 hover:border-red-400"
+          >
+            Discover More
+          </button>
+        </div>
+
+        <img
+          src="./assets/img/img1.png"
+          alt="Example Image"
+          class="max-w-185 h-178 object-cover rounded-4xl"
+        />
+      </section>
+      <section>
+        <div
+          class="pt-20 flex flex-col items-center justify-between max-w-[78vw]"
+        >
+          <span class="font-extralight text-sm">Specs</span>
+          <h1 class="pt-10 text-6xl">Why Choose Area?</h1>
+          <p class="text-slate-500 text-[0.93rem] leading-5 pt-10">
+            You need a solution that keeps up. That's why we developed Area. A
+            developer-friendly approach to streamline your business.
+          </p>
+          <button
+            class="h-12 w-35 mt-12 bg-[#DFECC6] text-sm font-semibold rounded-4xl transition-all hover:bg-[#8D9B77] hover:duration-700 hover:cursor-pointer hover:text-amber-50 hover:border-0.5 hover:border-red-400"
+          >
+            Discover More
+          </button>
+        </div>
+
+        <div class="flex mt-21 ml-10 max-w-[78vw]">
+          <div
+            class="flex flex-col grow border-[0.5px] border-slate-200 shadow-sm shadow-slate-300 rounded-3xl"
+          >
+            <h1
+              class="pt-10 pb-6 text-center text-2xl font-semibold border-b-[0.7px] border-b-slate-500"
+            >
+              Area
+            </h1>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+          </div>
+          <div class="flex flex-col grow">
+            <h1
+              class="pt-[41px] pb-6 text-center text-2xl font-semibold border-b-[1px] text-slate-400 border-b-slate-500"
+            >
+              WebSurge
+            </h1>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+          </div>
+          <div class="flex flex-col grow">
+            <h1
+              class="pt-[41px] pb-6 text-center text-2xl font-semibold border-b-[1px] text-slate-400 border-b-slate-500"
+            >
+              HyperView
+            </h1>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+            <div
+              class="flex items-center gap-2 p-7 border-b-slate-200 border-b-[0.5px] font-light font-mono text-[0.845rem] pl-10"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 12.75 6 6 9-13.5"
+                />
+              </svg>
+              Ultra-fast browsing
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="flex min-w-2/3 mt-29 ml-10 pb-15 max-w-[78vw] gap-6 center">
+          <img
+            src="./assets/img/img1.png"
+            alt="Example Image"
+            class="max-w-185 h-178 object-cover rounded-4xl"
+          />
+          <div
+            class="flex flex-col items-start justify-center ml-1 gap-2 border-t-[0.5px] border-t-slate-200"
+          >
+            <p class="text-[2.2rem] ml-10 leading-9">
+              “I was skeptical, but Area has completely transformed the way I
+              manage my business. The data visualizations are so clear and
+              intuitive, and the platform is so easy to use. I can't imagine
+              running my company without it.”
+            </p>
+            <span class="ml-10 font-semibold text-slate-700">John Smith</span>
+            <span class="ml-10 font-extralight text-sm">Head of Data</span>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="flex justify-between items-center max-w-[78vw] ml-10 py-20 border-t-[0.5px] border-slate-200"
+        >
+          <span class="text-6xl">Map your success</span>
+          <button
+            class="h-12 w-35 bg-[#DFECC6] text-sm font-semibold rounded-4xl transition-all hover:bg-[#8D9B77] hover:duration-700 hover:cursor-pointer hover:text-amber-50 hover:border-0.5 hover:border-red-400"
+          >
+            Discover More
+          </button>
+        </div>
+        <div class="flex ml-10 max-w-[78vw] justify-between">
+          <div>
+            <h1 class="text-7xl text-[#929292] mb-12">01</h1>
+            <span>Get Started</span>
+            <p class="text-slate-500 text-[0.93rem] leading-5 mt-5">
+              With our intuitive setup, you're up and running in minutes.
+            </p>
+          </div>
+          <div>
+            <h1 class="text-7xl text-[#929292] mb-12">02</h1>
+            <span>Get Started</span>
+            <p class="text-slate-500 text-[0.93rem] leading-5 mt-5">
+              With our intuitive setup, you're up and running in minutes.
+            </p>
+          </div>
+          <div>
+            <h1 class="text-7xl text-[#929292] mb-12">03</h1>
+            <span>Get Started</span>
+            <p class="text-slate-500 text-[0.93rem] leading-5 mt-5">
+              With our intuitive setup, you're up and running in minutes.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
